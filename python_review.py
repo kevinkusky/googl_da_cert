@@ -8,19 +8,19 @@
     where the stop is not inclusive
 """
 
-my_string = 'I am a string!'
+MY_STRING = 'I am a string!'
 
-print(my_string[0])   # 'I'
-print(my_string[-1])  # '!'
+print(MY_STRING[0])   # 'I'
+print(MY_STRING[-1])  # '!'
 
 # From index 1 to 4
-print(my_string[1:5])  # ' am '
+print(MY_STRING[1:5])  # ' am '
 # Implied start of index 0 to index 2
-print(my_string[:3])  # 'I a'
+print(MY_STRING[:3])  # 'I a'
 # From 3rd index from end to end
-print(my_string[-3:])  #  'ng!'
+print(MY_STRING[-3:])  #  'ng!'
 # From start to second index from end
-print(my_string[:-1])  #  'I am a string'
+print(MY_STRING[:-1])  #  'I am a string'
 
 # pylint: disable=pointless-string-statement
 """
